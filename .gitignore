@@ -1,0 +1,48 @@
+# Environments
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+*.egg
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# ML Models (large binary files)
+ml_models/
+*.pkl
+
+# Node
+node_modules/
+dist/
+.DS_Store
+*.log
+npm-debug.log*
+
+# Docker
+*.override.yml
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+Desktop.ini
